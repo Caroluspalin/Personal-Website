@@ -461,7 +461,7 @@ section{
     justify-content: center;
     text-align: center;
     background-color: var(--bg-color);
-    border: 2px soli var(--main-color);
+    border: 2px solid var(--main-color);
     border-radius: 3rem;
     gap: 2rem;
     padding: 5rem 2rem;
