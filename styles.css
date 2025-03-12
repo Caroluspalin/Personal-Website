@@ -216,7 +216,7 @@ section{
     color: black;
 }
 
-#CV .container {
+#cv .container {
     background: #f5f5f5; 
     max-width: 800px;
     margin: 0 auto; 
@@ -245,7 +245,7 @@ section{
   }
 
   #cv .container .left p {
-    font-size: 1px;
+    font-size: 16px;
   }
   
   #cv .container .right p {
