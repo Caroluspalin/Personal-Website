@@ -591,7 +591,7 @@ section{
     }
 
     .navbar a {
-        margin-left: 0; 
+        margin-left: 2rem; 
         padding: 1rem 1rem; 
         width: 100%; 
         text-align: center; 
@@ -627,7 +627,7 @@ section{
     }
 
     .gradient-btn {
-        display: none; /* Hide the contact button on mobile */
+        display: flex; 
     }
     .home{
         flex-direction: column-reverse;
