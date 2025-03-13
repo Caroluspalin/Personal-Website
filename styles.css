@@ -560,6 +560,12 @@ section{
     font-size: 16px;
 }
 
+@font-face {
+    font-family: 'Boxicons';
+    src: url('https://unpkg.com/boxicons@2.1.4/fonts/boxicons.woff2') format('woff2');
+    font-display: swap;
+  }
+
 @media(max-width:1285px){
     #menu-icon{
         display: block;
