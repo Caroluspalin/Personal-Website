@@ -613,4 +613,8 @@ section{
     .cv img{
         width: 52vw;
     }
+
+    .right{
+        width: 100%;
+    }
 }
