@@ -60,11 +60,11 @@ body {
 span {
     display: inline-block;
     background: linear-gradient(270deg, #7a0c0c 10%, #b50000 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
     color: transparent; 
-    text-shadow: 0px 0px 10px rgba(181, 0, 0, 0.6);
+    -webkit-text-fill-color: transparent; 
+    text-shadow: 0px 0px 10px rgba(181, 0, 0, 0.6); /
     }
 
 .navbar a{
