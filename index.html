@@ -14,7 +14,10 @@
         <a href="#home" class="logo">
             Carolus <span>Palin</span>
         </a>
+
+        <div class="menu-icon" id="menu-icon">
         <i class="bx bx-menu" id="menu-icon"></i>
+        </div>
 
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -265,5 +268,25 @@
             @ Carolus Palin | All Rights Reserved
         </p>
     </footer>
+
+    <script>
+        // JavaScript to toggle the mobile menu
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+
+        // Optional: Close menu when a link is clicked
+        const navLinks = document.querySelectorAll('.navbar a');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navbar.classList.remove('active');
+            });
+        });
+    </script>
+    
 </body>
 </html> 
